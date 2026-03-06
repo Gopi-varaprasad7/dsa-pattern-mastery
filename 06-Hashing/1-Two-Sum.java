@@ -4,6 +4,7 @@
  // Space: O(n)
  // Idea : Use HashSet for O(1) lookup
 
+ import java.util.*;
  class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
